@@ -1,0 +1,20 @@
+/* Add this CSS to your footer.component.css file or style section */
+
+footer {
+    background-color: #f8f9fa;
+    color: #495057;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.text-body {
+    color: #007bff;
+}
+
+@media (max-width: 767px) {
+    footer {
+        position: static;
+    }
+}

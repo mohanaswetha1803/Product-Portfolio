@@ -1,0 +1,281 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title"
+    },
+    {
+      "id": "2",
+      "title": "another title"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "products": [
+    {
+      "id": "1",
+      "title": "Solimo Modular Plastic Storage Containers",
+      "image": "https://m.media-amazon.com/images/I/81UwR7LlQ3L._AC_UL480_FMwebp_QL65_.jpg",
+      "price": 1732,
+      "likes": 11,
+      "dislikes": 5,
+      "description": "Cutting EDGE Modular Containers Oval Set with Plain Lid for Rice, Dal,Atta, Flour, Cereals, Pulses, Snacks, Stackable, 2.4 Litre Set of 8 - Blue Lids",
+      "category": "Kitchen"
+    },
+    {
+      "id": "2",
+      "title": "Green tea",
+      "image": "https://m.media-amazon.com/images/I/61jZzPVRZwL._SX679_PIbundle-25,TopRight,0,0_AA679SH20_.jpg",
+      "price": 720,
+      "likes": 4,
+      "dislikes": 2,
+      "description": "Tulsi Green Tea Lemon Ginger 50 Tea Bags - Stress Relieving & Refreshing This exciting blend of The Queen of Herbs Tulsi, our exquisite Green Tea, zesty and tasty Ginger, accented with Lemon Flavour creates a totally delicious and satisfying tea experience.",
+      "category": "Beverages"
+    },
+    {
+      "id": "3",
+      "title": "Navratna Ayurvedic Cool Oil",
+      "image": "https://images-eu.ssl-images-amazon.com/images/I/71xLwGPj2TL._AC_UL450_SR450,320_.jpg",
+      "price": 697,
+      "likes": 2,
+      "dislikes": 1,
+      "description": "It provides relief from skin irritation, prickly heat, redness, itching, fungal infection.",
+      "category": "Personal Care"
+    },
+    {
+      "id": "4",
+      "title": "Dettol Original Germ Protection Bathing Soap Bar",
+      "image": "https://m.media-amazon.com/images/I/61a5LNKUAZL._SY355_PIbundle-4,TopRight,0,0_AA355SH20_.jpg",
+      "price": 541,
+      "likes": 0,
+      "dislikes": 0,
+      "description": "Dettol original soap with classic Dettol fragrance provides Dettol's trusted germ protection from a wide range of unseen germs.",
+      "category": "Personal Care"
+    },
+    {
+      "id": "5",
+      "title": "Woolen Beanie Cap",
+      "image": "https://m.media-amazon.com/images/I/71ETCqzBUVL._SX679_.jpg",
+      "price": 4100,
+      "likes": 6,
+      "dislikes": 2,
+      "description": "Switch on to a fresh and fine look with beautifully designed unisex pure wool caps",
+      "category": "Fashion"
+    },
+    {
+      "id": "6",
+      "title": "Godrej aer O – Hanging Car Air Freshener",
+      "image": "https://m.media-amazon.com/images/I/41emG-Oi3RL._SX342_SY445_.jpg",
+      "price": 900,
+      "likes": 2,
+      "dislikes": 1,
+      "description": "It's unique membrane technology keeps your ride smelling fresh for up to 30 days.",
+      "category": "Automotive"
+    },
+    {
+      "id": "7",
+      "title": "Automotive Microfibre Towels",
+      "image": "https://m.media-amazon.com/images/I/51ic-PsBi-L._SX300_SY300_QL70_FMwebp_.jpg",
+      "price": 1999,
+      "likes": 0,
+      "dislikes": 0,
+      "description": "Get great deals from top brands for Car & Bike Accessories, Care Products",
+      "category": "Automotive"
+    },
+    {
+      "id": "8",
+      "title": "HIT Flying Insect Killer - Mosquito & Fly Killer Spray",
+      "image": "https://m.media-amazon.com/images/I/61H-2CyQa2L._SX522_.jpg",
+      "price": 967,
+      "likes": 0,
+      "dislikes": 0,
+      "description": "Shop for Health & Personal Care Products",
+      "category": "Home Care"
+    },
+    {
+      "id": "9",
+      "title": "C Cable",
+      "image": "https://m.media-amazon.com/images/I/61UzQMCRaeL._SX385_.jpg",
+      "price": 954,
+      "likes": 0,
+      "dislikes": 0,
+      "description": "USB C has dual role and is reversible",
+      "category": "Electronics"
+    },
+    {
+      "id": "10",
+      "title": "TCCO Natural Sneaker & Shoe Cleaner Wipes",
+      "image": "https://m.media-amazon.com/images/I/71vb1+-y+vL._AC_UL480_FMwebp_QL65_.jpg",
+      "price": 398,
+      "likes": 0,
+      "dislikes": 0,
+      "description": "Our shoe wipes sneaker cleaner come in a 1 pack of 80 wipe resealable packs to lock in the moisture and keep them fresh",
+      "category": "Fashion"
+    },
+    {
+      "id": "11",
+      "title": "Soft Cotton Indoor Disposable Winter Slides/Slipper",
+      "image": "https://m.media-amazon.com/images/I/41h04PBAQGL.jpg",
+      "price": 873,
+      "likes": 0,
+      "dislikes": 0,
+      "description": "Wide range of microscope slides available from Merck. Disposable microscope slide-grids for use with dry or suspended specimens.",
+      "category": "Fashion"
+    },
+    {
+      "id": "12",
+      "title": "Puma Unisex-Adult Incinerate Running Shoe",
+      "image": "https://m.media-amazon.com/images/I/61c9knNfrpL._SY625_.jpg",
+      "price": 5100,
+      "likes": 1,
+      "dislikes": 0,
+      "description": "Step into the world of running with a bang in our Incinerate Running Shoes, a silhouette perfect for giving the entry level runner boost with every stride",
+      "category": "Footwear"
+    },
+    {
+      "id": "13",
+      "title": "Oxo-Biodegradable Garbage Bags",
+      "image": "https://m.media-amazon.com/images/I/41kcDbjR5sL._SX300_SY300_QL70_FMwebp_.jpg",
+      "price": 799,
+      "likes": 0,
+      "dislikes": 0,
+      "description": "Presto! Oxo-Biodegradable Garbage Bags offer a convenient method of garbage disposal",
+      "category": "Home Care"
+    },
+    {
+      "id": "14",
+      "title": "Boldfit Shoe Bag",
+      "image": "https://m.media-amazon.com/images/I/51je6okhQ3L._SX300_SY300_QL70_FMwebp_.jpg",
+      "price": 1000,
+      "likes": 0,
+      "dislikes": 0,
+      "description": "These shoe bags pouches travel are odorless, stain resistant, breathable, dust proof, lightweight and easy to use",
+      "category": "Fashion"
+    },
+    {
+      "id": "15",
+      "title": "BODYCARE Baby Girl's Cotton Minnie Printed Slip",
+      "image": "https://m.media-amazon.com/images/I/612MhcPwneL._SX679_.jpg",
+      "price": 943,
+      "likes": 0,
+      "dislikes": 0,
+      "description": "Bodycare brings collection of girls slip with 100% Cotton,premium quality breathable fabric.",
+      "category": "Baby Care"
+    },
+    {
+      "id": "16",
+      "title": "Real Basics unisex child fleece Track Suit",
+      "image": "https://m.media-amazon.com/images/I/81W5YNzgDDL._SX679_.jpg",
+      "price": 200,
+      "likes": 1,
+      "dislikes": 0,
+      "description": "The Real Basics Unisex Child Fleece Track Suit emerges as a beacon of comfort and trendiness in the vast sea of baby winter clothing",
+      "category": "Baby Clothing"
+    },
+    {
+      "id": "17",
+      "title": "Bubblegummers Girls",
+      "image": "https://m.media-amazon.com/images/I/61ZuUS0GnQL._SX575_.jpg",
+      "price": 764,
+      "likes": 2,
+      "dislikes": 0,
+      "description": "Product description Look effortlessly stylish by wearing this pair of flat sandal featuring an eye-catching design and a refined appeal",
+      "category": "Footwear"
+    },
+    {
+      "id": "18",
+      "title": "Shoetopia Girls-Pacific Heeled Sandal",
+      "image": "https://m.media-amazon.com/images/I/61829Q+8qLL._SY695_.jpg",
+      "price": 976,
+      "likes": 0,
+      "dislikes": 0,
+      "description": "Shoetopia Women and Girls Blue Block Heel Sandal",
+      "category": "Footwear"
+    },
+    {
+      "id": "19",
+      "title": "Yellow Bee Rubber Unicorn Sandals",
+      "image": "https://m.media-amazon.com/images/I/51WGG7FICrL._SY535_.jpg",
+      "price": 432,
+      "likes": 1,
+      "dislikes": 1,
+      "description": "Easy to wash,clean and drys",
+      "category": "Footwear"
+    },
+    {
+      "id": "20",
+      "title": "Nakabh 8 inch Stylish Chain",
+      "image": "https://m.media-amazon.com/images/I/51aRIO+mRaL._SY575_.jpg",
+      "price": 275,
+      "likes": 1,
+      "dislikes": 0,
+      "description": "CCTV (closed-circuit television) is a TV system in which signals are not publicly distributed but are monitored, primarily for surveillance and security purposes",
+      "category": "Electronics"
+    }
+  ],
+  "team": [
+    {
+      "id": "1",
+      "name": "Prakash Zodge",
+      "image": "./assets/PassportImages/Prakash.jpg",
+      "role": "CEO",
+      "background": "B.Tech in Computer Science and Engineering",
+      "description": "Prakash is the visionary leader and CEO of our organization. With a background in Computer Science, he brings a wealth of knowledge and experience to drive the company's success. Prakash leads our team with passion and dedication, ensuring our projects reach new heights of innovation and excellence.",
+      "linkedin": "https://www.linkedin.com/in/prakash0000/",
+      "github": "https://github.com/prakash.zodge.bridgelabz"
+    },
+    {
+      "id": "2",
+      "name": "Rutuja Jitendra Kamthe",
+      "image": "./assets/PassportImages/RutujaKamthe.jpeg",
+      "role": "Full-Stack",
+      "background": "Engineering of electronic and telecommunication system",
+      "description": "Rutuja is a talented software engineer contributing to our projects with creativity and precision. Her commitment to delivering high-quality code enhances the overall success of our development efforts.",
+      "linkedin": "https://www.linkedin.com/in/rutuja-kamthe-3a3557166/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "github": "https://github.com/rutujakamthe123"
+    },
+    {
+      "id": "3",
+      "name": "Rakesh N",
+      "image": "./assets/PassportImages/Rakesh N.jpeg",
+      "role": "Frontend",
+      "background": "Master of computer applications",
+      "description": "Rakesh, with his expertise in frontend, plays a key role in our team, ensuring that our projects meet and exceed industry standards.",
+      "linkedin": "https://www.linkedin.com/in/rakesh-n-07a270219/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "github": "https://github.com/rakeshn123"
+    },
+    {
+      "id": "4",
+      "name": "Ranga Mohana Swetha",
+      "image": "./assets/PassportImages/Swetha.png",
+      "role": "Backend",
+      "background": "B.Tech (CSE)",
+      "description": "Swetha is a dedicated team member specializing in backend. Her attention to detail and problem-solving skills contribute significantly to our project success.",
+      "linkedin": "https://www.linkedin.com/in/mohana-swetha-ranga-976b09225",
+      "github": "https://github.com/mohanaswetha1803"
+    },
+    {
+      "id": "5",
+      "name": "Satya Sri Pulipati",
+      "image": "./assets/PassportImages/Satya.jpg",
+      "role": "Tester",
+      "background": "BE [CSE]",
+      "description": "Satya brings valuable expertise in testing to our team. Her collaborative approach and innovative mindset contribute to the success of our projects.",
+      "linkedin": "https://www.linkedin.com/in/satya-sri-pulipati-6b2000215/",
+      "github": "https://github.com/satyasrip"
+    }
+  ]
+}

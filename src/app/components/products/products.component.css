@@ -1,0 +1,96 @@
+#about-m{
+  /* background: linear-gradient(to right, #3498db, #2ecc71); */
+}
+.card img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+    transition: 0.3s ease-in-out;
+}
+.card img:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    padding: 20px;
+    min-width: 0;
+}
+.mySearchDiv{
+    margin-top: 30px;
+}
+
+
+/* Add this to your CSS file or styles section in the component */
+
+.custom-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .selected-category {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content div {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .dropdown-content div:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown-content img {
+    width: 30px; /* Adjust as needed */
+    height: 30px; /* Adjust as needed */
+    margin-right: 10px;
+  }
+  
+  .dropdown-content p {
+    margin: 0;
+  }
+  
+  .show {
+    display: block;
+  }
+  .custom-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 200px; /* Adjust the width as needed */
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}

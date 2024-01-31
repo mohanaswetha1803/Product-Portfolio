@@ -1,0 +1,80 @@
+body {
+  background-color: #f8f9fa;
+  position: relative;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+  padding: 20px;
+  min-width: 0;
+}
+
+.welcome-section {
+  text-align: center;
+  padding: 50px 0;
+  color: #110c0c;
+}
+
+.welcome-text {
+  font-size: 2.3em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+  letter-spacing: 4px;
+  /* Add letter-spacing */
+}
+
+.carousel-inner {
+  border-radius: 10px;
+  overflow: hidden;
+  max-height: 800px;
+  /* Set a fixed height for the carousel */
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  padding: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.carousel-caption h5 {
+  font-size: 2.5em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.carousel-caption p {
+  font-size: 1.5em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+.info-section {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .carousel-caption h5 {
+    font-size: 2em;
+  }
+
+  .carousel-caption p {
+    font-size: 1.2em;
+  }
+
+  .welcome-text {
+    font-size: 3em;
+    letter-spacing: 3px;
+    /* Adjust letter-spacing for smaller screens */
+  }
+}
+

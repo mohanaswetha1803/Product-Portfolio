@@ -1,0 +1,58 @@
+<ng-container *ngIf="products.length!=0">
+    <div class="containeer">
+        <div class="card-table">
+            <div class="card-product">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Sr. No.</th>
+                            <th>Product Name</th>
+                            <th>Product Image</th>
+                            <th>Description</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Total</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody *ngFor="let item of products;let i = index;">
+                        <tr>
+                            <td>{{i+1}}</td>
+                            <td>{{item.title}}</td>
+                            <td><img style="width: 120px;" src="{{item.image}}" alt=""></td>
+                            <td>{{item.description}}</td>
+                            <td>{{item.price}}</td>
+                            <td>{{item.quantity}}</td>
+                            <td>{{item.total}}</td>
+                            <td><button (click)="removeItemFromCart(item)" class="btn btn-danger"><i
+                                        class="fas fa-trash"></i></button></td>
+                        </tr>
+                    </tbody>
+                    <tr>
+                        <td colspan="4"></td>
+                        <td><button class="btn btn-danger" (click)="emptyCart()">Empty cart</button></td>
+                        <td><button routerLink="/products" class="btn btn-success">Shop more</button></td>
+                        <td><button class="btn btn-warning">Checkout</button></td>
+                        <td><strong>Grand total: {{grandTotal| currency:'INR':'symbol':'3.0'}}</strong></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</ng-container>
+
+<!-- Empty cart -->
+<ng-container *ngIf="products.length==0">
+    <div class="center">
+        <h4>Your cart is empty!</h4>
+        <h6>Add item to it</h6>
+        <button routerLink="/products" class="btn btn-dark">Shop now</button>
+    </div>
+</ng-container>
+
+<footer class="bg-body-tertiary text-center text-lg-start">
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2024 Copyright:
+        <a class="text-body" href="#">E-Mart.com</a>
+    </div>
+</footer>
